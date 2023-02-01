@@ -38,3 +38,5 @@ one $50 shirt(id: 123, type: CLOTHES, cost: $50)
 one $300 TV(id: 456, type: ELECTRONICS, cost: $300)
 THEN
 The system should response with discount CDE and a total cost of $305
+
+
