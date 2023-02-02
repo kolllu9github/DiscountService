@@ -1,15 +1,14 @@
 package com.adp.discount.controller;
 
-import com.adp.discount.dao.model.DiscountRequest;
 import com.adp.discount.dao.model.InvoiceRequest;
 
 public class DiscountByItem extends AbstractDiscount {
-	
-	
+
+
 	public DiscountByItem(String name) {
 		super.setName(name);
 	}
-	
+
 
 	@Override
 	protected long calculateDiscount(InvoiceRequest request) {

@@ -1,15 +1,15 @@
 package com.adp.discount.dao.model;
 
 public class InvoiceRequest {
-	
+
 	private int id;
 	private String type;
 	private long cost;
 	private int quantity;
-	
+
 	public InvoiceRequest(){}
 
-	
+
 	public InvoiceRequest(int id, String type, long cost, int quantity) {
 		super();
 		this.id = id;
@@ -17,7 +17,7 @@ public class InvoiceRequest {
 		this.cost = cost;
 		this.quantity = quantity;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -42,9 +42,9 @@ public class InvoiceRequest {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	
-	
-	
-	
+
+
+
+
 
 }

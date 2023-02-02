@@ -1,15 +1,15 @@
 package com.adp.discount.controller;
 
 public class DiscountLineItem {
-	
+
 	private String name;
 	private long discount;
 	private long totalCost;
 	private long discountedCost;
 	private long quantity;
-	
-	
-	
+
+
+
 	public DiscountLineItem(String name, long discount, long totalCost, long discountedCost, long quantity) {
 		super();
 		this.name = name;
@@ -18,8 +18,8 @@ public class DiscountLineItem {
 		this.discountedCost = discountedCost;
 		this.quantity = quantity;
 	}
-	
-	
+
+
 	public String getName() {
 		return name;
 	}
@@ -58,8 +58,8 @@ public class DiscountLineItem {
 	public void setQuantity(long quantity) {
 		this.quantity = quantity;
 	}
-	
-	
-	
+
+
+
 
 }

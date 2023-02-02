@@ -1,15 +1,15 @@
 package com.adp.discount.dao.model;
 
 public class DiscountRequest {
-	
+
 	private int id;
 	private String type;
 	private long cost;
 	private int quantity;
-	
+
 	public DiscountRequest(){}
 
-	
+
 	public DiscountRequest(int id, String type, long cost, int quantity) {
 		super();
 		this.id = id;
@@ -17,7 +17,7 @@ public class DiscountRequest {
 		this.cost = cost;
 		this.quantity = quantity;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -48,9 +48,9 @@ public class DiscountRequest {
 	public String toString() {
 		return "DiscountRequest [id=" + id + ", type=" + type + ", cost=" + cost + ", quantity=" + quantity + "]";
 	}
-	
-	
-	
-	
+
+
+
+
 
 }

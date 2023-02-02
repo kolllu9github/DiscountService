@@ -1,16 +1,15 @@
 package com.adp.discount.controller;
 
-import com.adp.discount.dao.model.DiscountRequest;
 import com.adp.discount.dao.model.InvoiceRequest;
 
 public abstract class AbstractDiscount {
-	
 
-	
+
+
 	private long bestDiscount;
-	
+
 	private String name;
-	
+
 
 	public String getName() {
 		return name;
@@ -32,5 +31,5 @@ public abstract class AbstractDiscount {
 
 
 	protected abstract long calculateDiscount( InvoiceRequest request);
-	
+
 }
