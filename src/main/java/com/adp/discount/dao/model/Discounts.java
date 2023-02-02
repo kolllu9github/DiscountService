@@ -11,14 +11,23 @@ public class Discounts {
 	@Id
 	@Column(name="NAME")
 	private String name;
+	
 	@Column(name= "PERCENTAGE")
 	private double percentage;
 	
-	public Discounts() {};
+	@Column(name= "TYPE")
+	private String type;
 	
-	public Discounts(String name, double percentage) {
+	@Column(name="TYPEVALUE")
+	private String typeValue;
+	
+	public Discounts() {}
+
+	public Discounts(String name, double percentage, String type, String typeValue) {
 		this.name = name;
 		this.percentage = percentage;
+		this.type = type;
+		this.typeValue = typeValue;
 	}
 	public String getName() {
 		return name;
@@ -32,5 +41,24 @@ public class Discounts {
 	public void setPercentage(double percentage) {
 		this.percentage = percentage;
 	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getTypeValue() {
+		return typeValue;
+	}
+
+	public void setTypeValue(String typeValue) {
+		this.typeValue = typeValue;
+	}
+
+
 	
+
 }

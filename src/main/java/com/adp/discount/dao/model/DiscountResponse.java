@@ -1,16 +1,16 @@
 package com.adp.discount.dao.model;
 
 public class DiscountResponse {
-	
+
 	private String discountName;
 	private long totalCost;
-	
+
 	public DiscountResponse(String name,  long totalCost) {
 		super();
 		this.discountName = name;
 		this.totalCost = totalCost;
 	}
-	
+
 	public String getDiscountName() {
 		return discountName;
 	}
